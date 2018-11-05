@@ -1,0 +1,380 @@
+body{padding-top:70px;}
+
+/*********** Stat navbar *******************/ 
+.navbar-default
+{
+    background-color:#FFF;
+    border:none;
+    padding:20px;
+    box-shadow:0 0 30px rgba(0,0,0,0.2);
+
+}
+
+.navbar > .container .navbar-brand, .navbar > .container .navbar-brand
+{
+    
+    font-size:30px;
+    color:#1f386e;
+    font-family:cursive
+}
+
+.navbar > .container .navbar-brand:hover
+{
+    color:#080;
+    font-weight:bold;
+}
+
+.navbar-nav > li
+{
+    font-size:18px;
+    
+}
+
+.navbar-default .navbar-nav > li > a
+{
+    color:#1f386e;
+    font-family:inherit;
+    font-weight:bold
+}
+
+.navbar-default .navbar-nav > li > a:hover{color:#080}
+/************* End navbar **************************/
+
+
+/******************** Start header *************/
+.header
+{
+    background:url(../images/intro-bg.jpg) center center no-repeat;
+    background-size:cover;
+    width:100%;
+    height:600px
+}
+
+.header .back{background:rgba(0,0,0,0.3)}
+
+.text{margin-top:250px}
+
+.text h1
+{
+    text-transform:capitalize;
+    color:#FFF;
+    font-size:80px;
+    font-weight:bold;
+    text-shadow:0 0 15px rgba(0,0,0,0.5);
+    font-weight:800;
+    padding-bottom:30px;
+    background:rgba(82,78,78,0.5)
+
+}
+
+.text p
+{
+    font-size:25px;
+    color:#FFF;
+    padding-bottom:40px;
+    background:rgba(82,78,78,0.5)
+}
+
+.text button
+{
+    padding:10px 25px;
+    color:#FFF;
+    background-color:#e52f3c;
+    border:none;
+    text-transform:capitalize;
+    letter-spacing:2px;
+    text-transform:uppercase;
+    -webkit-transition:all 0.8s ease;
+    -moz-transition:all 0.8s ease;
+    -o-transition:all 0.8s ease;
+    transition:all 0.8s ease
+}
+
+.text button:hover{background-color:#080}
+/********************* End header **************/ 
+
+/*** Start cost ****/
+
+.cost
+{
+    background-color:#1F386E;
+    min-height:150px;
+    color:#FFF;
+    padding-bottom:30px
+}
+
+.cost .text-2{padding-top:25px}
+
+.cost .text-2 h3{text-transform:capitalize;}
+
+.cost .text-2 p{opacity:.6}
+
+.cost .text-2{letter-spacing:1px}
+
+.cost .buttom {margin-top:50px}
+
+.cost .buttom a
+{
+    border-radius:0;
+    text-transform:uppercase;
+    font-size:15px;
+    padding:15px 30px;
+    background-color:#1F386E;
+    border:2px solid #FFF;
+    font-weight:bold;
+    letter-spacing:1px;
+    -webkit-transition:all 0.8s ease;
+    -moz-transition:all 0.8s ease;
+    -o-transition:all 0.8s ease;
+    transition:all 0.8s ease;
+
+}
+
+.cost .buttom a:hover{background-color:#FFF;color:#1F386E}
+/*****End cost *****/
+
+/*** Start who ***/
+.who
+{
+    padding-top:100px;
+    padding-bottom:100px;
+    background-color:#F6F6F6
+}
+
+.who img 
+{
+    background:#000;
+    border:15px solid #FFF;
+    width:100%;
+    margin-bottom:20px
+}
+
+.who .about-text h1
+{
+    margin-top:0;
+    padding-bottom:20px;
+    border-bottom:1px solid #ddd;/* test */
+    text-transform:capitalize;
+    font-weight:bold
+}
+
+.who .about-text p
+{
+    opacity:0.7;
+    padding-top:25px;
+    font-size:16px;
+    padding-bottom:20px
+}
+
+.who h1
+{
+    text-transform:capitalize;
+    font-weight:bold;
+    font-size:30px;
+    padding-bottom:10px;
+}
+
+
+.who .list ul li 
+{
+    padding-bottom:5px;
+    text-transform:capitalize;
+    opacity:0.8;
+    padding-left:5px
+}
+
+.who .list ul li i{color:#1F386E}
+/*** End who ****/
+
+/** Start services **/ 
+.services{padding-top:45px;padding-bottom:100px}
+
+.services h1 
+{
+    text-transform:capitalize;
+    font-weight:bold;
+    border-bottom:1px solid #ddd;
+    padding-bottom:20px;
+    margin-bottom:80px
+}
+
+.services .all{margin-top:60px}
+
+.services .media{padding-top:20px}
+
+.services .media img{width:100%}
+
+.services .text3 h2
+{
+    text-transform:capitalize;
+    font-weight:bold;
+    padding-bottom:10px;
+    font-size:25px
+}
+
+.services .text3 p{opacity:0.8;line-height:20px}
+/** End services **/ 
+
+/*** Start por ***/ 
+.por
+{
+    background-color:#F6F6F6;
+    padding-top:40px;
+    padding-bottom:50px
+}
+
+.por h1 
+{
+    padding-bottom:40px;
+    text-transform:capitalize;
+    font-weight:bold;
+    border-bottom:1px solid #DDD;
+    margin-bottom:60px
+        
+}
+
+.por img{width:100%;margin-bottom:25px;margin-right:10px}
+/*** End por ***/ 
+
+/** Start testi ***/ 
+.testi
+{
+    padding-top:80px;
+    padding-bottom:80px;
+    overflow:hidden
+}
+
+.testi h1
+{
+    text-transform:capitalize;
+    font-weight:bold;
+    border-bottom:1px solid #ddd;
+    padding-bottom:20px;
+    margin-bottom:80px
+}
+
+.testi .images{float:left}
+
+.testi .images img
+{width:100%;height:65}
+
+.testi .text4{margin-bottom:50px}
+
+.testi .text4 p{padding-left:80px;opacity:0.8}
+
+.testi .text4 h4{padding-left:80px;padding-top:10px;}
+/*** End testi ***/ 
+
+/******* Start footer *******/
+.footer
+{
+    background-color:#1F386E;
+    color:#FFF;
+    padding-top:80px;
+    padding-bottom:80px;
+    
+}
+
+.footer .text5 h3
+{
+    padding-bottom:20px;
+    border-bottom:1px solid #5b607b;
+    text-transform:capitalize;
+    font-weight:bold;
+    font-size:30px
+}
+
+.footer .text5 p
+{
+    padding-top:10px;
+    padding-bottom:40px;
+    opacity:0.8;
+    letter-spacing:1px
+}
+
+.footer .form{margin-bottom:45px}
+
+.footer .form input
+{
+    width:100%;
+    height:35px;
+    background-color:#FFF;
+    margin-right:20px;
+    margin-bottom:20px;
+    color:#000
+}
+
+.footer .form textarea
+{
+    width:100%;
+    height:102px;
+    margin-bottom:30px;
+    color:#000
+}
+
+.footer .form button
+{
+    background-color:#1F386E;
+    border:2px solid #FFF;
+    border-radius:0;
+    font-size:12px;
+    font-weight:bold;
+    letter-spacing:1px;
+    -webkit-transition:all .5s ease;
+    -moz-transition:all .5s ease;
+    -o-transition:all .5s ease;
+    transition:all .5s ease;
+}
+
+.footer .form button:hover{background-color:#FFF;color:#1F386E}
+
+.footer h3
+{
+    padding-bottom:20px;
+    border-bottom:1px solid #5b607b;
+    text-transform:capitalize;
+    font-weight:bold;
+    font-size:30px
+}
+
+.footer .info{padding-left:40px}
+
+.footer .info h4{padding-top:45px;margin-top:0}
+
+.footer .info p{opacity:.6;margin-bottom:0}
+/****** End footer **********/
+
+
+/*****Start underfooter *******/
+.underfooter
+{
+    background-color:#1F386E;
+    padding-top:40px;
+    padding-bottom:50px;
+}
+
+.underfooter .icon 
+{
+    border-top:1px solid #5b607b;
+    padding-top:60px;
+    margin-right:60px
+}
+
+.underfooter .icon i
+{
+    color:#FFF;
+    margin-left:45px;
+    opacity:0.7
+}
+
+.underfooter .icon i:hover{opacity:1}
+/****** End underfooter *******/ 
+
+/** Start copy ***/
+.copy{padding-top:40px;padding-bottom:40px}
+
+.copy p{font-size:20px}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus{background:none;color:#F00}
